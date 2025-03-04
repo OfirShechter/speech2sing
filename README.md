@@ -11,6 +11,7 @@ Run spleeter on songs in folder to spleet them into vocals and accompaniment.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/data_preparation/spleeter.ipynb)
 
 # MelGAN-VC
+
 ## MelGAN-VC with power loss
 Run MelGAN with power loss factor. <span style="color:red">Original name: Speech2Sing_Ofir.ipynb</span>
 
@@ -47,3 +48,4 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
     Your browser does not support the audio element.
   </audio>
 </figure>
+
