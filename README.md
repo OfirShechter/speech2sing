@@ -23,14 +23,15 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
   <figcaption>Generated Singing:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/generated_singing.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
+    audio element location: [Link Text](./MelGAN-VC/results/with-power-loss/1/generated_singing.wav)
   </audio>
 </figure>
+
 <figure>
   <figcaption>Generated Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/generated_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
+    audio element location: ./MelGAN-VC/results/with-power-loss/1/generated_singing.wav
   </audio>
 </figure>
 <figure>
