@@ -19,10 +19,11 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
 ### results sample:
 ![Mel Spectrograms](./MelGAN-VC/results/with-power-loss/1/mel_spectrograms.png)
 
-[Generated Singing](./MelGAN-VC/results/with-power-loss/1/generated_singing.wav) ;
-[Generated Speech](./MelGAN-VC/results/with-power-loss/1/generated_speech.wav) ;
-[Original Speech](./MelGAN-VC/results/with-power-loss/1/original_speech.wav) ;
-[Complete Song Output](./MelGAN-VC/results/with-power-loss/1/fake_combine.wav) ;
+[Generated Singing](./MelGAN-VC/results/with-power-loss/1/generated_singing.wav);
+[Generated Speech](./MelGAN-VC/results/with-power-loss/1/generated_speech.wav);
+[Original Speech](./MelGAN-VC/results/with-power-loss/1/original_speech.wav);
+[Complete Song Output](./MelGAN-VC/results/with-power-loss/1/fake_combine.wav);
+
 <figure>
   <figcaption>Generated Singing:</figcaption>
   <audio controls>
@@ -59,37 +60,43 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
 ### Singing as input - results sample:
 ![Mel Spectrograms](./MelGAN-VC/results/identity-force-and-normalization/singing/1/mel_spectrograms.png)
 
+[Generated Singing](./MelGAN-VC/results/identity-force-and-normalization/singing/1/generated_singing.wav);
+[Generated Speech](./MelGAN-VC/results/identity-force-and-normalization/singing/1/generated_speech.wav);
+[Original Speech](./MelGAN-VC/results/identity-force-and-normalization/singing/1/original_speech.wav);
+[Complete Song Output](./MelGAN-VC/results/identity-force-and-normalization/singing/1/fake_combine.wav);
+
 <figure>
   <figcaption>Generated Singing:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/singing/1/generated_singing.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Generated Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/singing/1/generated_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Original Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/singing/1/original_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Complete Song Output:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/singing/1/fake_combine.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 
 ### Speech as input - results sample:
 ![Mel Spectrograms](./MelGAN-VC/results/identity-force-and-normalization/speech/1/mel_spectrograms.png)
+
+[Generated Singing](./MelGAN-VC/results/identity-force-and-normalization/speech/1/generated_singing.wav);
+[Generated Speech](./MelGAN-VC/results/identity-force-and-normalization/speech/1/generated_speech.wav);
+[Original Speech](./MelGAN-VC/results/identity-force-and-normalization/speech/1/original_speech.wav);
+[Complete Song Output](./MelGAN-VC/results/identity-force-and-normalization/speech/1/fake_combine.wav);
 
 <figure>
   <figcaption>Generated Singing:</figcaption>
@@ -119,16 +126,3 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
     Your browser does not support the audio element.
   </audio>
 </figure>
-
-
-<figure>
-  <figcaption>CHECK!!</figcaption>
-  <audio controls>
-    <source src="original_speech.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</figure>
-
-<audio controls src="original_speech.mp3" title="Title"></audio>
-
-<video controls src="original_speech.mp4" title="Title"></video>
