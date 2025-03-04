@@ -19,11 +19,14 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
 ### results sample:
 ![Mel Spectrograms](./MelGAN-VC/results/with-power-loss/1/mel_spectrograms.png)
 
+[Generated Singing](./MelGAN-VC/results/with-power-loss/1/generated_singing.wav) ;
+[Generated Speech](./MelGAN-VC/results/with-power-loss/1/generated_speech.wav) ;
+[Original Speech](./MelGAN-VC/results/with-power-loss/1/original_speech.wav) ;
+[Complete Song Output](./MelGAN-VC/results/with-power-loss/1/fake_combine.wav) ;
 <figure>
   <figcaption>Generated Singing:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/generated_singing.wav" type="audio/mpeg">
-    audio element location: [Link Text](./MelGAN-VC/results/with-power-loss/1/generated_singing.wav)
   </audio>
 </figure>
 
@@ -31,21 +34,18 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
   <figcaption>Generated Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/generated_speech.wav" type="audio/mpeg">
-    audio element location: ./MelGAN-VC/results/with-power-loss/1/generated_singing.wav
   </audio>
 </figure>
 <figure>
   <figcaption>Original Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/original_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Complete Song Output:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/with-power-loss/1/fake_combine.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 
