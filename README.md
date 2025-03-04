@@ -127,3 +127,7 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
     Your browser does not support the audio element.
   </audio>
 </figure>
+
+<audio controls src="original_speech.mp3" title="Title"></audio>
+
+<video controls src="original_speech.mp4" title="Title"></video>
