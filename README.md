@@ -118,3 +118,12 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
     Your browser does not support the audio element.
   </audio>
 </figure>
+
+
+<figure>
+  <figcaption>CHECK!!</figcaption>
+  <audio controls>
+    <source src="original_speech.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
