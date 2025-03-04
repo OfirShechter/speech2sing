@@ -1,5 +1,5 @@
 # speech2sing
-
+Note: it is recommanded to clone/fork the repository in order to read the README.md with the exampled audio. Currently, github don't support playing audio files. 
 # Prepare data:
 Takes splited songs (vocals and accompaniment) and create dataset from them (split into 2 seconds files of singing and accompaniment pairs).
 
