@@ -88,4 +88,33 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
 </figure>
 
 ### Speech as input - results sample:
+![Mel Spectrograms](MelGAN-VC\results\identity-force-and-normalization\speech\1\mel_spectrograms.png)
 
+<figure>
+  <figcaption>Generated Singing:</figcaption>
+  <audio controls>
+    <source src="MelGAN-VC\results\identity-force-and-normalization\speech\1\generated_singing.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Speech:</figcaption>
+  <audio controls>
+    <source src="MelGAN-VC\results\identity-force-and-normalization\speech\1\generated_speech.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+<figure>
+  <figcaption>Original Speech:</figcaption>
+  <audio controls>
+    <source src="MelGAN-VC\results\identity-force-and-normalization\speech\1\original_speech.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+<figure>
+  <figcaption>Complete Song Output:</figcaption>
+  <audio controls>
+    <source src="MelGAN-VC\results\identity-force-and-normalization\speech\1\fake_combine.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
