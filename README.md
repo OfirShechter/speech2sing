@@ -153,3 +153,27 @@ Use HifiGAN generators, discriminators and losses. Input is the original speech 
     <source src="./HifiGAN/results/base/1/original_speech_with_background.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+# Phonemes-Syllables-Singing
+Classic approches to manipulate the speech into singing that fits given midi notes.
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-View%20Repository-blue?style=for-the-badge&logo=github)](https://github.com/OfirShechter/phonemes-singing)
+
+### result samples (on barbie girl):
+
+# Syllables Manipulation
+
+sentence: "Don't ask me to carry an"
+
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/1/original audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Output Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/1/output audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
