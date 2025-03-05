@@ -102,27 +102,54 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
   <figcaption>Generated Singing:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/speech/1/generated_singing.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Generated Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/speech/1/generated_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Original Speech:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/speech/1/original_speech.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
   </audio>
 </figure>
 <figure>
   <figcaption>Complete Song Output:</figcaption>
   <audio controls>
     <source src="./MelGAN-VC/results/identity-force-and-normalization/speech/1/fake_combine.wav" type="audio/mpeg">
-    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+# HifiGAN
+Use HifiGAN generators, discriminators and losses. Input is the original speech with lower accompaniment.
+
+<span style="color:red">Original name: Speech2Sing_Ofir_HifiGAN.ipynb</span>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/HifiGAN\HifiGAN_speech2sing.ipynb)
+
+### results sample:
+[Generated Singing](./HifiGAN/results/base/1/generated_singing.wav);
+[Generated Speech](./HifiGAN/results/base/1/generated_speech.wav);
+[Original Speech With Background](./HifiGAN/results/base/1/original_speech_with_background.wav);
+
+<figure>
+  <figcaption>Generated Singing:</figcaption>
+  <audio controls>
+    <source src="./HifiGAN/results/base/1/generated_singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Speech:</figcaption>
+  <audio controls>
+    <source src="./HifiGAN/results/base/1/generated_speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Original Speech With Background:</figcaption>
+  <audio controls>
+    <source src="./HifiGAN/results/base/1/original_speech_with_background.wav" type="audio/mpeg">
   </audio>
 </figure>
