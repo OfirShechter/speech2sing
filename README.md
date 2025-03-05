@@ -168,12 +168,29 @@ sentence: "Don't ask me to carry an"
 <figure>
   <figcaption>Original Audio:</figcaption>
   <audio controls>
-    <source src="./Phonemes-Syllables-Singing/results/1/original audio.wav" type="audio/mpeg">
+    <source src="./Phonemes-Syllables-Singing/results/syllables/1/original audio.wav" type="audio/mpeg">
   </audio>
 </figure>
 <figure>
   <figcaption>Output Audio:</figcaption>
   <audio controls>
-    <source src="./Phonemes-Syllables-Singing/results/1/output audio.wav" type="audio/mpeg">
+    <source src="./Phonemes-Syllables-Singing/results/syllables/1/output audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+# Words Manipulation
+
+sentence: "She had your dark suit in greasy wash water all year"
+
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/words/1/original audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Output Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/words/1/output audio.wav" type="audio/mpeg">
   </audio>
 </figure>
