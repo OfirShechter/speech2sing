@@ -154,10 +154,10 @@ Use HifiGAN generators, discriminators and losses. Input is the original speech 
   </audio>
 </figure>
 
-# Phonemes-Syllables-Singing
+# Classic Approch
 Classic approches to manipulate the speech into singing that fits given midi notes.
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-View%20Repository-blue?style=for-the-badge&logo=github)](https://github.com/OfirShechter/phonemes-singing)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/OfirShechter/phonemes-singing)
 
 ### result samples (on barbie girl):
 
@@ -213,3 +213,33 @@ sentence: "Don't ask me to carry an oily rag like that"
 </figure>
 
 ### Time Manipulation (do not mind content)
+
+input: wave of sinus
+
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/time/wave/1/original audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Output Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/time/wave/1/output audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+sentence: Don't ask me to carry an oily rag like that
+
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/time/sentence/1/original audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Output Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/time/sentence/1/output audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
