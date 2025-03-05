@@ -161,7 +161,7 @@ Classic approches to manipulate the speech into singing that fits given midi not
 
 ### result samples (on barbie girl):
 
-# Syllables Manipulation
+### Syllables Manipulation
 
 sentence: "Don't ask me to carry an"
 
@@ -178,7 +178,7 @@ sentence: "Don't ask me to carry an"
   </audio>
 </figure>
 
-# Words Manipulation
+### Words Manipulation
 
 sentence: "She had your dark suit in greasy wash water all year"
 
@@ -194,3 +194,22 @@ sentence: "She had your dark suit in greasy wash water all year"
     <source src="./Phonemes-Syllables-Singing/results/words/1/output audio.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+### Phonemes Manipulation
+
+sentence: "Don't ask me to carry an oily rag like that"
+
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/phonemes/1/original audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Output Audio:</figcaption>
+  <audio controls>
+    <source src="./Phonemes-Syllables-Singing/results/phonemes/1/output audio.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+### Time Manipulation (do not mind content)
