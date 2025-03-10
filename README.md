@@ -264,3 +264,32 @@ Use FreeVC As-Is and train it on speech and singing input, got some intresting r
     <source src="./FreeVC/results/to-taylor-speech/taylor-singing/1/converted.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+### the beatles singing to taylor swift speech
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/the-beatles-singing/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/the-beatles-singing/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+### female librispeech to taylor swift speech
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/female-librispeech/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/female-librispeech/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
