@@ -307,3 +307,44 @@ Use FreeVC As-Is and train it on speech and singing input, got some intresting r
   </audio>
 </figure>
 
+### taylor swift speech to taylor swift singing
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/taylor-speech/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/taylor-speech/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+### female librispeech to taylor swift speech
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/female-librispeech/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/female-librispeech/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+### male librispeech to taylor swift speech
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/male-librispeech/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-singing/male-librispeech/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
