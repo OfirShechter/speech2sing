@@ -243,3 +243,24 @@ sentence: Don't ask me to carry an oily rag like that
     <source src="./Phonemes-Syllables-Singing/results/time/sentence/1/output audio.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+# FreeVC
+Use FreeVC As-Is and train it on speech and singing input, got some intresting results.
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/OfirShechter/FreeVC)
+
+### result samples:
+
+### taylor swift singing to taylor swift speech
+<figure>
+  <figcaption>Original Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/taylor-singing/1/original.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Converted Audio:</figcaption>
+  <audio controls>
+    <source src="./FreeVC/results/to-taylor-speech/taylor-singing/1/converted.wav" type="audio/mpeg">
+  </audio>
+</figure>
