@@ -408,7 +408,9 @@ Use CycleGAN with MelGAN-VC architecture
   </audio>
 </figure>
 
-## CycleGAN - without identity loss
+![Mel Spectrograms](./CycleGAN-MelGAN/results/no-identity-loss/1/mel-spectrograms.png)
+
+## CycleGAN - with identity loss
 Use CycleGAN with MelGAN-VC architecture. In addition, pass singing to the speech2sing generator and speech to the sing2speech generator and expect identity. This done in order to try to preserve the content.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/CycleGAN-MelGAN/CycleGAN_MelGAN_with_identity_loss.ipynb)
@@ -463,3 +465,6 @@ Use CycleGAN with MelGAN-VC architecture. In addition, pass singing to the speec
     <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/back to singing.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+![Mel Spectrograms](./CycleGAN-MelGAN/results/with-identity-loss/1/mel-spectrograms.png)
+
