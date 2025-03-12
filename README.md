@@ -362,3 +362,109 @@ Use FreeVC As-Is and train it on speech and singing input, got some intresting r
     <source src="./FreeVC/results/to-taylor-singing/the-beatles-singing/1/converted.wav" type="audio/mpeg">
   </audio>
 </figure>
+
+# CycleGAN - MelGAN-VC
+## CycleGAN - without identity loss
+Use CycleGAN with MelGAN-VC architecture
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/CycleGAN-MelGAN/CycleGAN_MelGAN.ipynb)
+
+### results sample:
+<figure>
+  <figcaption>Original Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/original speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/generated singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Back To Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/back to speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+<figure>
+  <figcaption>Original Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/original singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/generated speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Back To Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/no-identity-loss/1/back to singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+![Mel Spectrograms](./CycleGAN-MelGAN/results/no-identity-loss/1/mel-spectrograms.png)
+
+## CycleGAN - with identity loss
+Use CycleGAN with MelGAN-VC architecture. In addition, pass singing to the speech2sing generator and speech to the sing2speech generator and expect identity. This done in order to try to preserve the content.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/CycleGAN-MelGAN/CycleGAN_MelGAN_with_identity_loss.ipynb)
+
+### results sample:
+<figure>
+  <figcaption>Original Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/original speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Identity Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/identity speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/generated singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Back To Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/back to speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+---------
+<figure>
+  <figcaption>Original Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/original singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Identity Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/identity singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Generated Speech:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/generated speech.wav" type="audio/mpeg">
+  </audio>
+</figure>
+<figure>
+  <figcaption>Back To Singing:</figcaption>
+  <audio controls>
+    <source src="./CycleGAN-MelGAN/results/with-identity-loss/1/back to singing.wav" type="audio/mpeg">
+  </audio>
+</figure>
+
+![Mel Spectrograms](./CycleGAN-MelGAN/results/with-identity-loss/1/mel-spectrograms.png)
+
