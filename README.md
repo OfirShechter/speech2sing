@@ -154,8 +154,8 @@ Use HifiGAN generators, discriminators and losses. Input is the original speech 
   </audio>
 </figure>
 
-# Classic Approch
-Classic approches to manipulate the speech into singing that fits given midi notes.
+# Classic Approach
+Classic approaches to manipulate the speech into singing that fits given midi notes.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/OfirShechter/phonemes-singing)
 
