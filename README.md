@@ -12,7 +12,7 @@ Run spleeter on songs in folder to spleet them into vocals and accompaniment.
 
 # MelGAN-VC
 ## MelGAN-VC with power loss
-Run MelGAN with power loss factor. <span style="color:red">Original name: Speech2Sing_Ofir.ipynb</span>
+Run MelGAN with power loss factor. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/MelGAN-VC/with-power-loss.ipynb)
 
@@ -51,7 +51,6 @@ Run MelGAN with power loss factor. <span style="color:red">Original name: Speech
 </figure>
 
 ## MelGAN-VC with Identity force and Normalize mel-spectrogram data
-<span style="color:red">Original name: Speech2Sing_Ofir_V8_identity_force_lower_acc.ipynb</span>
 
 Normaize both input and generated mel-spectrogram to make sure discriminator have to address all component equally. Add singing as speech output as well, and add identity-loss when the input speech is actually a singing input.
 
@@ -125,8 +124,6 @@ Normaize both input and generated mel-spectrogram to make sure discriminator hav
 
 # HifiGAN
 Use HifiGAN generators, discriminators and losses. Input is the original speech with lower accompaniment.
-
-<span style="color:red">Original name: Speech2Sing_Ofir_HifiGAN.ipynb</span>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OfirShechter/speech2sing/blob/main/HifiGAN\HifiGAN_speech2sing.ipynb)
 
